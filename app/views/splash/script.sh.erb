@@ -98,6 +98,11 @@ if [ "$OSX_VERSION" -eq 10 ]; then
 fi
 
 echo "
+--> Making sure xcode command line tools are installed."
+
+sudo xcode-select --install || true
+
+echo "
 --> Making sure /opt/boxen exists and belongs to you."
 
 sudo mkdir -p /opt/boxen

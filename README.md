@@ -1,5 +1,8 @@
 # Boxen via the Web
 
+[![Build Status](https://travis-ci.org/borcean/boxen-web.svg?branch=master)](https://travis-ci.org/borcean/boxen-web)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Development
 
 We assume you already have Boxen working on your machine. You also need PostgreSQL installed.
